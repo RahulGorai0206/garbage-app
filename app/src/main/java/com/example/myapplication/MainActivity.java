@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         try {
-            mSocket = IO.socket("https://garbage-tracking-backend.onrender.com/comcoordinates/send-coordinates");
+            mSocket = IO.socket("https://production-backend-3olq.onrender.com/");
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
